@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0029412D1CDFD5CC00F0D9B5 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029412C1CDFD5CC00F0D9B5 /* ScheduleViewController.swift */; };
+		002941301CE01F3B00F0D9B5 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0029412E1CE01F3B00F0D9B5 /* DateTableViewCell.swift */; };
+		002941311CE01F3B00F0D9B5 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0029412F1CE01F3B00F0D9B5 /* DateTableViewCell.xib */; };
+		002941331CE02A5800F0D9B5 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002941321CE02A5800F0D9B5 /* DayViewController.swift */; };
+		002941361CE0342200F0D9B5 /* ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002941341CE0342200F0D9B5 /* ShowTableViewCell.swift */; };
+		002941371CE0342200F0D9B5 /* ShowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002941351CE0342200F0D9B5 /* ShowTableViewCell.xib */; };
+		002941391CE0415F00F0D9B5 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002941381CE0415F00F0D9B5 /* ShowViewController.swift */; };
+		EB6BC2221CD858F8006B615B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BC2211CD858F8006B615B /* AppDelegate.swift */; };
+		EB6BC2241CD858F8006B615B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BC2231CD858F8006B615B /* ViewController.swift */; };
+		EB6BC2271CD858F8006B615B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6BC2251CD858F8006B615B /* Main.storyboard */; };
+		EB6BC2291CD858F8006B615B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6BC2281CD858F8006B615B /* Assets.xcassets */; };
+		EB6BC22C1CD858F8006B615B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6BC22A1CD858F8006B615B /* LaunchScreen.storyboard */; };
+		EB6BC2371CD858F8006B615B /* ChapmanRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BC2361CD858F8006B615B /* ChapmanRadioTests.swift */; };
+		EB6BC2421CD858F8006B615B /* ChapmanRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6BC2411CD858F8006B615B /* ChapmanRadioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB6BC2331CD858F8006B615B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6BC2161CD858F7006B615B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6BC21D1CD858F7006B615B;
+			remoteInfo = ChapmanRadio;
+		};
+		EB6BC23E1CD858F8006B615B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6BC2161CD858F7006B615B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6BC21D1CD858F7006B615B;
+			remoteInfo = ChapmanRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0029412C1CDFD5CC00F0D9B5 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		0029412E1CE01F3B00F0D9B5 /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		0029412F1CE01F3B00F0D9B5 /* DateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
+		002941321CE02A5800F0D9B5 /* DayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		002941341CE0342200F0D9B5 /* ShowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTableViewCell.swift; sourceTree = "<group>"; };
+		002941351CE0342200F0D9B5 /* ShowTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowTableViewCell.xib; sourceTree = "<group>"; };
+		002941381CE0415F00F0D9B5 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		EB6BC21E1CD858F8006B615B /* ChapmanRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChapmanRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6BC2211CD858F8006B615B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB6BC2231CD858F8006B615B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB6BC2261CD858F8006B615B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB6BC2281CD858F8006B615B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB6BC22B1CD858F8006B615B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB6BC22D1CD858F8006B615B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6BC2321CD858F8006B615B /* ChapmanRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChapmanRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6BC2361CD858F8006B615B /* ChapmanRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapmanRadioTests.swift; sourceTree = "<group>"; };
+		EB6BC2381CD858F8006B615B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6BC23D1CD858F8006B615B /* ChapmanRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChapmanRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6BC2411CD858F8006B615B /* ChapmanRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapmanRadioUITests.swift; sourceTree = "<group>"; };
+		EB6BC2431CD858F8006B615B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6BC21B1CD858F7006B615B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BC22F1CD858F8006B615B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BC23A1CD858F8006B615B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6BC2151CD858F7006B615B = {
+			isa = PBXGroup;
+			children = (
+				EB6BC2201CD858F8006B615B /* Chap Radio */,
+				EB6BC2351CD858F8006B615B /* ChapmanRadioTests */,
+				EB6BC2401CD858F8006B615B /* ChapmanRadioUITests */,
+				EB6BC21F1CD858F8006B615B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6BC21F1CD858F8006B615B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BC21E1CD858F8006B615B /* ChapmanRadio.app */,
+				EB6BC2321CD858F8006B615B /* ChapmanRadioTests.xctest */,
+				EB6BC23D1CD858F8006B615B /* ChapmanRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6BC2201CD858F8006B615B /* Chap Radio */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BC2211CD858F8006B615B /* AppDelegate.swift */,
+				EB6BC2231CD858F8006B615B /* ViewController.swift */,
+				0029412C1CDFD5CC00F0D9B5 /* ScheduleViewController.swift */,
+				002941321CE02A5800F0D9B5 /* DayViewController.swift */,
+				002941381CE0415F00F0D9B5 /* ShowViewController.swift */,
+				EB6BC2251CD858F8006B615B /* Main.storyboard */,
+				EB6BC2281CD858F8006B615B /* Assets.xcassets */,
+				EB6BC22A1CD858F8006B615B /* LaunchScreen.storyboard */,
+				0029412E1CE01F3B00F0D9B5 /* DateTableViewCell.swift */,
+				0029412F1CE01F3B00F0D9B5 /* DateTableViewCell.xib */,
+				002941341CE0342200F0D9B5 /* ShowTableViewCell.swift */,
+				002941351CE0342200F0D9B5 /* ShowTableViewCell.xib */,
+				EB6BC22D1CD858F8006B615B /* Info.plist */,
+			);
+			name = "Chap Radio";
+			path = ChapmanRadio;
+			sourceTree = "<group>";
+		};
+		EB6BC2351CD858F8006B615B /* ChapmanRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BC2361CD858F8006B615B /* ChapmanRadioTests.swift */,
+				EB6BC2381CD858F8006B615B /* Info.plist */,
+			);
+			path = ChapmanRadioTests;
+			sourceTree = "<group>";
+		};
+		EB6BC2401CD858F8006B615B /* ChapmanRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BC2411CD858F8006B615B /* ChapmanRadioUITests.swift */,
+				EB6BC2431CD858F8006B615B /* Info.plist */,
+			);
+			path = ChapmanRadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6BC21D1CD858F7006B615B /* ChapmanRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6BC2461CD858F8006B615B /* Build configuration list for PBXNativeTarget "ChapmanRadio" */;
+			buildPhases = (
+				EB6BC21A1CD858F7006B615B /* Sources */,
+				EB6BC21B1CD858F7006B615B /* Frameworks */,
+				EB6BC21C1CD858F7006B615B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChapmanRadio;
+			productName = ChapmanRadio;
+			productReference = EB6BC21E1CD858F8006B615B /* ChapmanRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB6BC2311CD858F8006B615B /* ChapmanRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6BC2491CD858F8006B615B /* Build configuration list for PBXNativeTarget "ChapmanRadioTests" */;
+			buildPhases = (
+				EB6BC22E1CD858F8006B615B /* Sources */,
+				EB6BC22F1CD858F8006B615B /* Frameworks */,
+				EB6BC2301CD858F8006B615B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6BC2341CD858F8006B615B /* PBXTargetDependency */,
+			);
+			name = ChapmanRadioTests;
+			productName = ChapmanRadioTests;
+			productReference = EB6BC2321CD858F8006B615B /* ChapmanRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB6BC23C1CD858F8006B615B /* ChapmanRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6BC24C1CD858F8006B615B /* Build configuration list for PBXNativeTarget "ChapmanRadioUITests" */;
+			buildPhases = (
+				EB6BC2391CD858F8006B615B /* Sources */,
+				EB6BC23A1CD858F8006B615B /* Frameworks */,
+				EB6BC23B1CD858F8006B615B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6BC23F1CD858F8006B615B /* PBXTargetDependency */,
+			);
+			name = ChapmanRadioUITests;
+			productName = ChapmanRadioUITests;
+			productReference = EB6BC23D1CD858F8006B615B /* ChapmanRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6BC2161CD858F7006B615B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ziegler, Kayla";
+				TargetAttributes = {
+					EB6BC21D1CD858F7006B615B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7BH58J7845;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					EB6BC2311CD858F8006B615B = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
+						TestTargetID = EB6BC21D1CD858F7006B615B;
+					};
+					EB6BC23C1CD858F8006B615B = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
+						TestTargetID = EB6BC21D1CD858F7006B615B;
+					};
+				};
+			};
+			buildConfigurationList = EB6BC2191CD858F7006B615B /* Build configuration list for PBXProject "ChapRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6BC2151CD858F7006B615B;
+			productRefGroup = EB6BC21F1CD858F8006B615B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6BC21D1CD858F7006B615B /* ChapmanRadio */,
+				EB6BC2311CD858F8006B615B /* ChapmanRadioTests */,
+				EB6BC23C1CD858F8006B615B /* ChapmanRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6BC21C1CD858F7006B615B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6BC22C1CD858F8006B615B /* LaunchScreen.storyboard in Resources */,
+				EB6BC2291CD858F8006B615B /* Assets.xcassets in Resources */,
+				002941371CE0342200F0D9B5 /* ShowTableViewCell.xib in Resources */,
+				EB6BC2271CD858F8006B615B /* Main.storyboard in Resources */,
+				002941311CE01F3B00F0D9B5 /* DateTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BC2301CD858F8006B615B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BC23B1CD858F8006B615B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6BC21A1CD858F7006B615B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002941361CE0342200F0D9B5 /* ShowTableViewCell.swift in Sources */,
+				002941391CE0415F00F0D9B5 /* ShowViewController.swift in Sources */,
+				0029412D1CDFD5CC00F0D9B5 /* ScheduleViewController.swift in Sources */,
+				002941331CE02A5800F0D9B5 /* DayViewController.swift in Sources */,
+				EB6BC2241CD858F8006B615B /* ViewController.swift in Sources */,
+				EB6BC2221CD858F8006B615B /* AppDelegate.swift in Sources */,
+				002941301CE01F3B00F0D9B5 /* DateTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BC22E1CD858F8006B615B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6BC2371CD858F8006B615B /* ChapmanRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6BC2391CD858F8006B615B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6BC2421CD858F8006B615B /* ChapmanRadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB6BC2341CD858F8006B615B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6BC21D1CD858F7006B615B /* ChapmanRadio */;
+			targetProxy = EB6BC2331CD858F8006B615B /* PBXContainerItemProxy */;
+		};
+		EB6BC23F1CD858F8006B615B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6BC21D1CD858F7006B615B /* ChapmanRadio */;
+			targetProxy = EB6BC23E1CD858F8006B615B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB6BC2251CD858F8006B615B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6BC2261CD858F8006B615B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB6BC22A1CD858F8006B615B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6BC22B1CD858F8006B615B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB6BC2441CD858F8006B615B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB6BC2451CD858F8006B615B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6BC2471CD858F8006B615B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ChapmanRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.ChapmanRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB6BC2481CD858F8006B615B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ChapmanRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.ChapmanRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB6BC24A1CD858F8006B615B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChapmanRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.ChapmanRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChapmanRadio.app/ChapmanRadio";
+			};
+			name = Debug;
+		};
+		EB6BC24B1CD858F8006B615B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChapmanRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.ChapmanRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChapmanRadio.app/ChapmanRadio";
+			};
+			name = Release;
+		};
+		EB6BC24D1CD858F8006B615B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChapmanRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.ChapmanRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChapmanRadio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EB6BC24E1CD858F8006B615B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChapmanRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.chapman.ChapmanRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChapmanRadio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6BC2191CD858F7006B615B /* Build configuration list for PBXProject "ChapRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6BC2441CD858F8006B615B /* Debug */,
+				EB6BC2451CD858F8006B615B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6BC2461CD858F8006B615B /* Build configuration list for PBXNativeTarget "ChapmanRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6BC2471CD858F8006B615B /* Debug */,
+				EB6BC2481CD858F8006B615B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6BC2491CD858F8006B615B /* Build configuration list for PBXNativeTarget "ChapmanRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6BC24A1CD858F8006B615B /* Debug */,
+				EB6BC24B1CD858F8006B615B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6BC24C1CD858F8006B615B /* Build configuration list for PBXNativeTarget "ChapmanRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6BC24D1CD858F8006B615B /* Debug */,
+				EB6BC24E1CD858F8006B615B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6BC2161CD858F7006B615B /* Project object */;
+}
